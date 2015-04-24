@@ -1765,7 +1765,7 @@
             <url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
             <releases>
                 <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
+                <updatePolicy>never</updatePolicy>
                 <checksumPolicy>ignore</checksumPolicy>
             </releases>
         </pluginRepository>
@@ -1776,7 +1776,7 @@
             <url>http://maven.wso2.org/nexus/content/repositories/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
+                <updatePolicy>never</updatePolicy>
             </snapshots>
             <releases>
                 <enabled>false</enabled>
@@ -1788,7 +1788,7 @@
             <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
             <releases>
                 <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
+                <updatePolicy>never</updatePolicy>
                 <checksumPolicy>ignore</checksumPolicy>
             </releases>
         </pluginRepository>
@@ -1851,7 +1851,6 @@
         <carbon.kernel.imp.pkg.version>[4.4.0, 4.5.0)
         </carbon.kernel.imp.pkg.version>
         <carbon.kernel.registry.imp.pkg.version>[1.0.1, 2.0.0)</carbon.kernel.registry.imp.pkg.version>
-
 
         <carbon.commons.version>4.3.6-SNAPSHOT</carbon.commons.version>
         <carbon.commons.exp.package.version>${carbon.commons.version}</carbon.commons.exp.package.version>
